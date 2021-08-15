@@ -2,7 +2,7 @@ name: Generate luoyeji Pages
 on:
   push:
     branches:
-      - main
+      - actions
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
