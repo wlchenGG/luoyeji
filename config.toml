@@ -1,3 +1,80 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://wlchengg.github.io/luoyeji/"
+# [en, zh-cn, fr, ...] 设置默认的语言
+defaultContentLanguage = "zh-cn"
+# 网站语言, 仅在这里 CN 大写
+languageCode = "zh-CN"
+# 是否包括中日韩文字
+hasCJKLanguage = true
+title = "一筐落叶"
+
+theme = "zozo"
+
+summaryLength = 100
+paginate = 4                           # shows the number of articles   # 首页显示文章数量
+enableEmoji = true
+googleAnalytics = ""                   # your google analytics id       # Google统计代码
+disqusShortname = ""                   # your discuss shortname         # Disqus评论系统代码
+
+pygmentsUseClasses = true
+pygmentCodeFences = true
+pygmentscodefencesguesssyntax = true
+
+[author]                               # essential                      # 必需
+  name = "Mr.尘"
+
+[blackfriday]
+  smartypants = false
+
+[[menu.main]]                          # config your menu               # 配置菜单
+  name = "主页"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "一筐"
+  weight = 20
+  identifier = "archive"
+  url = "/posts/"
+[[menu.main]]
+  name = "标签"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "关于"
+  weight = 40
+  identifier = "about"
+  url = "/about/"
+
+[params]
+  subTitle = "来日方长，何惧车遥马慢"                                       # site's subTitle              # 网站二级标题
+  footerSlogan = "My spiritual home"                                   # site's footer slogan         # 网站页脚标语
+  keywords = ["Hugo","theme","zozo"]                                   # site's keywords              # 网站关键字
+  description = "落叶一筐一筐."                                         # site's description           # 网站描述
+  enableMathJax = true                                                 # enable mathjax               # 是否使用mathjax（数学公式）
+  enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
+  mainSections = ["posts","post"]
+  
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[params.valine]
+  enable = false
+  appId = ""
+  appKey = ""
+  placeholder = " "
+  visitor = true
+
+# Your socail's url
+# 社交地址配置
+[social]
+  github = "https://github.com/wlchenGG"
+  twitter = " "
+  facebook = " "
+  weibo = " "
+  instagram = " "
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
