@@ -1,3 +1,9 @@
 [submodule "themes/zozo"]
 	path = themes/zozo
 	url = https://github.com/varkai/hugo-theme-zozo.git
+[submodule "themes/zen"]
+	path = themes/zen
+	url = https://github.com/frjo/hugo-theme-zen.git
+[submodule "themes/hiruko"]
+	path = themes/hiruko
+	url = https://github.com/GenkunAbe/hugo-theme-hiruko.git
