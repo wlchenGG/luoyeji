@@ -47,8 +47,8 @@ pygmentscodefencesguesssyntax = true
   url = "/about/"
 
 [params]
-  subTitle = "来日方长，何惧车遥马慢"                                       # site's subTitle              # 网站二级标题
-  footerSlogan = "My spiritual home"                                   # site's footer slogan         # 网站页脚标语
+  subTitle = "来日方长，何惧车遥马慢"                                    # site's subTitle              # 网站二级标题
+  footerSlogan = ""                                                    # site's footer slogan         # 网站页脚标语
   keywords = ["Hugo","theme","zozo"]                                   # site's keywords              # 网站关键字
   description = "落叶一筐一筐."                                         # site's description           # 网站描述
   enableMathJax = true                                                 # enable mathjax               # 是否使用mathjax（数学公式）
@@ -68,11 +68,11 @@ pygmentscodefencesguesssyntax = true
 # Your socail's url
 # 社交地址配置
 [social]
-  github = "https://github.com/wlchenGG"
-  twitter = " "
-  facebook = " "
-  weibo = " "
-  instagram = " "
+  github = ""
+  twitter = ""
+  facebook = ""
+  weibo = ""
+  instagram = ""
 
 [markup]
 [markup.goldmark]
