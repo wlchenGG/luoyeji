@@ -33,8 +33,13 @@ pygmentscodefencesguesssyntax = true
 [[menu.main]]
   name = "一筐"
   weight = 20
-  identifier = "archive"
-  url = "/posts/"
+  identifier = "poem"
+  url = "/poems/"
+[[menu.main]]
+  name = "一阁"
+  weight = 25
+  identifier = "allusion"
+  url = "/allusions/"
 [[menu.main]]
   name = "标签"
   weight = 30
